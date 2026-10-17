@@ -1,0 +1,20 @@
+# Local hosting metadata and editor state
+.openai/
+.codex/
+.idea/
+.vscode/
+
+# Credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local dependencies, logs, and OS files
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
